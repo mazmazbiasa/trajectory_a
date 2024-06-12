@@ -1,0 +1,6 @@
+<launch>
+  
+  	<node type="waypoint1" pkg="trajectory_a" name="waypoint1" output="screen">
+  	<param name="verbal_flag" type="bool" value="true" />
+  </node>
+</launch>
