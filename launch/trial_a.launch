@@ -1,4 +1,7 @@
 <launch>
+    <node pkg="trajectory_a" type="commander1.py" name="Trial" required="true" output="screen" >
+	</node>
+
     <include file="$(find mavros)/launch/node.launch">
 
         <arg name="config_yaml" value="$(find mavros)/launch/px4_config.yaml" />
